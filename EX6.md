@@ -1,5 +1,4 @@
 # Ex. No: 6 Creating Cursors using PL/SQL
-
 ### AIM: To create a cursor using PL/SQL.
 
 ### Steps:
@@ -41,7 +40,6 @@ BEGIN
 END;
 /
 ```
-
 ### Output:
 ![Screenshot 2023-10-03 232132](https://github.com/swetha1510/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/120623583/890f1659-981c-42d5-bc8c-4f34db3efe87)
 
