@@ -24,7 +24,6 @@ DECLARE
    emp_salary NUMBER;
 BEGIN
   OPEN employee_list_cursor;
-
   LOOP
     FETCH employee_list_cursor INTO emp_id, emp_name, emp_dept, emp_salary;
 
@@ -35,7 +34,6 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Department: ' || emp_dept);
     DBMS_OUTPUT.PUT_LINE('Salary: ' || emp_salary);
   END LOOP;
-
   CLOSE employee_list_cursor;
 END;
 /
